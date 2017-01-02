@@ -1,0 +1,10 @@
+Project
+<H1><a href="https://github.com/aLahat/watchfile">WATCHFILE</a></H1>
+<p> Turns any terminal into a very usefull way of writing code and scripts
+<pre>
+	~:whatchfile [file] [command]
+</pre>
+
+<p> this will run the command every time the file is updated.
+
+

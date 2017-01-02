@@ -1,0 +1,6 @@
+GenArt
+<img src="../../images/fig_9.png" alt="squares">
+<div class="caption">
+<h3>Squares 9</h3>
+Starting with a blank canvas (every pixel set at 0,0,0) the canvas is split aproximately in half (following gausian distribution) vertically and the color of each side is added a or substracted (randomaly) 1 to the rgb values. The process is repeated for the now rectangles (this time in the opposite orientation) this process has been repeated 9 times.
+</div>

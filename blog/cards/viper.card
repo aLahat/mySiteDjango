@@ -1,0 +1,29 @@
+Projects
+<H1><a href="https://github.com/aLahat/piper">VIPER</a></H1>
+ <p> A bash based computational algorithm and protocol managment tool.
+	<p> Very simple yet very useful.
+
+<pre>
+	~$cat commands.v
+	function _01_firstStep {
+	echo first step
+	cp some files
+	chmod 777 *
+	}
+	
+	function _02_some_R_code {
+	R --vanilla &#60;&#60;ENDOFRSCRIPT
+	countdata = read.table('aligned/merged.counts')
+	countdata = round(countdata)
+	write(countdata,"data.csv")
+	ENDOFRSCRIPT
+	}
+</pre>
+
+<p> now to run any steps:
+<pre>
+	~:v command 01 | bash
+	first step
+</pre>
+
+

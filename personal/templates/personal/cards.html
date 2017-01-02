@@ -1,0 +1,14 @@
+{% extends "personal/header.html" %}
+{% block content %}
+	<div class="row">
+         {% for topic,body in content %}
+  	    <div class="col-sm-6 col-md-4">
+	      <div class="thumbnail">
+	        <a href="{{topic}}">{{topic}}</a><br>
+	        {{body|safe}}
+	      </div>
+	    </div>
+          {% endfor %}
+	</div>
+{% endblock %}
+
